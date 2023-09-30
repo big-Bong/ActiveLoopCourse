@@ -1,5 +1,3 @@
-import os
-
 from dotenv import load_dotenv
 from langchain.chains import ConversationChain, LLMChain
 from langchain.llms import OpenAI
@@ -31,6 +29,6 @@ def testMemory():
         print(conversation)
 
 if __name__ == "__main__":
-        #testLLM()
+        testLLM()
         #testChain()
-        testMemory()
+        #testMemory()
